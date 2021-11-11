@@ -53,9 +53,8 @@
 
 /*BADGES*/
 
-.article .like::after
+.article .like
 {
-    content: "\2665";
     font-size: 1.3em;
     color: black;
     background-color: white;
@@ -67,22 +66,39 @@
     text-align: center;
     line-height: 30px;
 }
-
-.badge
+.article .like:hover
+{
+    color: red;
+}
+.badges
 {
     position: absolute;
+    left:0;
     bottom:10px;
+}
+.badge
+{
     font-size:0.7em;
     color: white;
     padding: 3px 5px;
+    margin-right: 5px;
 }
 .sales-red
 {
-    background-color: #eb0037;
-    left:0;
+    background-color: #eb0037; 
 }
 .tag-green
 {
     background-color: #00875a;
-    left:40px;
+}
+/*INFO*/
+.info
+{
+    font-size: 12px;
+    margin: 5px;
+}
+.price
+{
+    color: red;
+    font-weight: bold;
 }
