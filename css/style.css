@@ -67,18 +67,22 @@
     text-align: center;
     line-height: 30px;
 }
-.article .sales::after
+
+.badge
 {
-    content: "-50%";
-    font-size: 0.8em;
-    color: white;
-    background-color: #eb0037;
     position: absolute;
-    padding: 2px 4px;
-    left: 5px;
-    bottom: 20px;
-    width: 30px;
-    height: 15px;
-    text-align: center;
-    line-height: 15px;
+    bottom:10px;
+    font-size:0.7em;
+    color: white;
+    padding: 3px 5px;
+}
+.sales-red
+{
+    background-color: #eb0037;
+    left:0;
+}
+.tag-green
+{
+    background-color: #00875a;
+    left:40px;
 }
