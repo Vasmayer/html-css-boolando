@@ -14,12 +14,16 @@
 }
 
 /*ARTICLES*/
-.article
+.article-complete
 {
     width: 30%;
-    height: 500px;
     display: inline-block;
     margin: 5px;
+}
+.article
+{
+    width: 100%;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -96,6 +100,8 @@
 {
     font-size: 12px;
     margin: 5px;
+    width: 90%;
+
 }
 .price
 {
